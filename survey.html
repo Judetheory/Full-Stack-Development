@@ -57,9 +57,30 @@
                         <option value="Zamfara">Zamafara</option>
                     </select>
                 </label>
-                <label><p>Did you vote in the Presidential Election</p></label>
-                <label><input name="vote" type="radio">Yes</label>
-                <label><input name="vote" type="radio">No</label>
+                <label><strong>Did you vote in the Presidential Election?</strong></label>
+                <label><input class="inline" name="presi" type="radio">Yes</label>
+                <label><input class="inline" name="presi" type="radio">No</label>
+                <label><strong>Did you vote in the Gubernatorial Election?</strong></label>
+                <label><input class="inline" name="gover" type="radio">Yes</label>
+                <label><input class="inline" name="gover" type="radio">No</label>
+                <label><strong>Check the Electionerring malpractices that occured at your polling unit</strong></label>
+                <label><input class="inline" name="malpractices" type="checkbox">No INEC officials</label>
+                <label><input class="inline" name="malpractices" type="checkbox">No Ballot papers</label>
+                <label><input class="inline" name="malpractices" type="checkbox">Result Sheet manipulations</label>
+                <label><input class="inline" name="malpractices" type="checkbox">Burning of Ballot boxes</label>
+                <label><input class="inline" name="malpractices" type="checkbox">Thuggery Activities</label>
+                <label><input class="inline" name="malpractices" type="checkbox">Physical assaults</label>
+                <label><input class="inline" name="malpractices" type="checkbox">Killing and fatal injuries</label>
+                <label><strong>Upload any evidence:</strong><input id="file-evidence" type="file" name="file"/></label>
+                <label><strong>Did your result at the polling unit tally with IREV upload?</strong></label>
+                <label><input class="inline" name="result" type="radio">Yes</label>
+                <label><input class="inline" name="result" type="radio">No</label>
+                <label><strong>Will you be voting in the next election?</strong></label>
+                <label><input class="inline" name="vote" type="radio">Yes</label>
+                <label><input class="inline" name="vote" type="radio">No</label>
+                <label><strong>Suggest what can be done to improve subsequent elections</strong></label>
+                <textarea placeholder="pour your mind..."></textarea>
+                <input type="submit" id="submit" value="Submit">
                     
             
             </fieldset>
