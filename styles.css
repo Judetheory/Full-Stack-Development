@@ -16,9 +16,10 @@
             display: block;
             margin: 0.5rem 0;
           }
-    input {width: 100%;}
+    input,select {width: 100%;}
     .inline {
       width: unset;
       margin: 0 0.5em 0 0;
       vertical-align: middle;
     }
+    textarea {width: 80%; height: fit-content;}
